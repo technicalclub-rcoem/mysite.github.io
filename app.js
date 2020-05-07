@@ -10,3 +10,9 @@ Stage(function(stage){
 	});
 
 });
+
+Stage(
+	textures :{
+		
+	}
+);
