@@ -2,13 +2,13 @@ Stage(function(stage){
 
 	var number=0;
 	stage.viewbox(50,50).pin('handle',-0.5);
+	var mark =Stage.image('b').appendTo(stage).pin('handle',0.5);
 
 
-	stage.on('click',function(){
+	mark.on('click',function(){
 
 		// console.log("num :"+number);
-
-		Stage.image('b').appendTo(stage).pin('handle',0.5);
+		mark.pin('rotation',Math.PI/4);
 		// number++;
 	});
 
