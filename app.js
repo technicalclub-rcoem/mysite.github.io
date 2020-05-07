@@ -8,7 +8,7 @@ Stage(function(stage){
 	mark.on('click',function(){
 
 		// console.log("num :"+number);
-		mark.pin('rotation',Math.PI/4);
+		mark.tween().ease('in-out').pin('rotation',Math.PI *2);
 		// number++;
 	});
 
