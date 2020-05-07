@@ -1,0 +1,14 @@
+{
+  "name": "nayaproject",
+  "version": "1.0.0",
+  "description": "aise hi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Tripathi",
+  "license": "ISC",
+  "dependencies": {
+    "stage-js": "^0.8.11"
+  }
+}
